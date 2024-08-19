@@ -438,6 +438,15 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
     }
 
 
+    .dpm h2,
+    .parlemen h2,
+    .VisiMisi h2{
+        text-align: center;
+        font-size: 2.9rem;
+        margin-bottom: 1.5rem;
+        margin-top: 0rem;
+    }
+
     .dpm .row,
     .VisiMisi .row {
         flex-wrap: wrap;
