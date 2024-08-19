@@ -457,6 +457,7 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
         height: 24rem;
         object-position: center;
         align-items: center;
+        display: flex;
     }
 
     .dpm .row .content,
