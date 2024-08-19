@@ -461,6 +461,7 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
         object-position: center;
         align-items: center;
         display: flex;
+        margin: auto;
     }
 
     .parlemen .par .content,
@@ -472,14 +473,16 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
     .parlemen .par .content h3,
     .dpm .row .content h3,
     .VisiMisi .row .content h3 {
-        margin-top: 1rem;
+        margin-top: 3rem;
         font-size: 2rem;
+        text-align: center;
     }
 
     .parlemen .par .content p,
     .dpm .row .content p,
     .VisiMisi .row .content p {
         font-size: large 1rem;
+        margin-top: 2rem;
     }
 
     .footer .footer-left,
