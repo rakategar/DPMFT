@@ -484,32 +484,13 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
     .footer .footer-left,
     .footer .footer-right {
         display: block;
-        width: 100%;
+        width: 50%;
     }
 
     .parlemen .par {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .parlemen .par .parlemen-img {
-        width: 60%;
-        height: auto;
-        margin-bottom: 1.5rem;
-    }
-
-    .parlemen .par .content {
-        padding: 0 2rem;
-        text-align: center;
-    }
-
-    .parlemen .par .content h3 {
-        font-size: 2rem;
-    }
-
-    .parlemen .par .content p {
-        font-size: 1.4rem;
     }
     
 }
