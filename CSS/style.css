@@ -447,11 +447,13 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
         margin-top: 2rem;
     }
 
+    .parlemen .par,
     .dpm .row,
     .VisiMisi .row {
         flex-wrap: wrap;
     }
 
+    .parlemen .par .parlemen-img,
     .dpm .row .dpm-img img,
     .VisiMisi .row .VisiMisi-img img {
         height: 24rem;
@@ -460,17 +462,20 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
         display: flex;
     }
 
+    .parlemen .par .content,
     .dpm .row .content,
     .VisiMisi .row .content {
         padding: 0;
     }
 
-    .dpm .row .content h3
+    .parlemen .par .content h3,
+    .dpm .row .content h3,
     .VisiMisi .row .content h3 {
         margin-top: 1rem;
         font-size: 2rem;
     }
 
+    .parlemen .par .content p,
     .dpm .row .content p,
     .VisiMisi .row .content p {
         font-size: large 1rem;
@@ -513,30 +518,5 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
 @media (max-width: 450px) {
     html {
         font-size: 55%;
-    }
-
-    .parlemen .par {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .parlemen .par .parlemen-img {
-        width: 20%;
-        height: auto;
-        margin-bottom: 1rem;
-    }
-
-    .parlemen .par .content {
-        padding: 0 1rem;
-        text-align: center;
-    }
-
-    .parlemen .par .content h3 {
-        font-size: 1.6rem;
-    }
-
-    .parlemen .par .content p {
-        font-size: 1.2rem;
     }
 }
