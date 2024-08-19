@@ -251,29 +251,29 @@ body {
     line-height: 1;
 }
 
-.parlemen .par .parlemen-img {
-    width: 40%;
-    height: 40%;
-}
-.parlemen .par .content p{
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 1;
-}
+    .parlemen .par .parlemen-img {
+        width: 40%;
+        height: 40%;
+    }
+    .parlemen .par .content p{
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1;
+    }
 
-.parlemen .par .content {
-    flex: 1 1 60rem;
-    padding: 0 1,2rem;
-    line-height: 1.5rem;
-    text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    .parlemen .par .content {
+        flex: 1 1 60rem;
+        padding: 0 1,2rem;
+        line-height: 1.5rem;
+        text-align: justify;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-.parlemen .par .content h3 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-    margin-top: 1rem;
-}
+    .parlemen .par .content h3 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
 
 /* struktur */
 .struktur {
@@ -480,6 +480,31 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
     .footer .footer-right {
         display: block;
         width: 100%;
+    }
+
+    .parlemen .par {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parlemen .par .parlemen-img {
+        width: 60%;
+        height: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .parlemen .par .content {
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .parlemen .par .content h3 {
+        font-size: 2rem;
+    }
+
+    .parlemen .par .content p {
+        font-size: 1.4rem;
     }
     
 }
