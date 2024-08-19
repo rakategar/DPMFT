@@ -395,6 +395,7 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
 @media (max-width: 768px) {
     html {
         font-size: 62.5%;
+        overflow-x: hidden;
     }
 
     #hamberger-menu {
