@@ -439,6 +439,7 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
 
 
     .dpm h2,
+    .parlemen h2,
     .VisiMisi h2{
         text-align: center;
         font-size: 2.9rem;
@@ -486,17 +487,7 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
         width: 0%;
     }
 
-/* parlemen */
-
-    .parlemen h2{
-        text-align: center;
-        font-size: 2.9rem;
-        margin-bottom: 1.5rem;
-        margin-top: 2rem;
-    }
-
     .parlemen .par {
-        flex-wrap: wrap;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -504,11 +495,9 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
 
     .parlemen .par .parlemen-img {
         width: 100%;
-        height: 24rem;
-        object-position: center;
-        align-items: center;
-        display: flex;
+        height: auto;
         margin-bottom: 1rem;
+        align-items: center;
     }
 
     .parlemen .par .content {
