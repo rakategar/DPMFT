@@ -485,6 +485,16 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
     .footer .footer-right {
         display: block;
         width: 100%;
+        display: inline-block;
+        justify-content: space-between;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        align-items: center;
+        margin: 3rem;
+        padding:3rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-top: 0;
+        font-style: normal;
     }
 
     .parlemen .par {
@@ -511,7 +521,17 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
     .parlemen .par .content p {
         font-size: 1.4rem;
     }
-    
+
+    /* struktur */
+    .struktur img {
+        height: 24rem;
+        object-position: center;
+        align-items: center;
+        display: flex;
+        margin-top: 2rem;
+        width: 300%;
+        height: 300%;
+    }
 }
 
 /* mobile phone */
