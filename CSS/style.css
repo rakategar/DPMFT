@@ -496,12 +496,11 @@ footer .footer-right .sosmed1 .sosmed2 .sosmed3 {
     .parlemen .par .parlemen-img {
         width: 100%;
         height: auto;
-        margin-bottom: 1.5rem;
+        margin-bottom: 5rem;
         align-items: center;
     }
 
     .parlemen .par .content {
-        padding: 0 2rem;
         text-align: center;
     }
 
