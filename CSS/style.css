@@ -225,6 +225,25 @@ body {
     flex: 1 1 40rem;
 }
 
+.dpm-img, .content {
+    opacity: 0;
+    transform: translateY(70px); /* Lebih jauh ke bawah untuk efek dramatis */
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* Durasi lebih lama */
+}
+
+.dpm-img.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.content.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.7s; /* Tambahkan delay agar teks muncul setelah gambar */
+}
+
+
+
 .dpm .row .dpm-img img {
     width: 67%;
 }
