@@ -32,3 +32,16 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(element);
     });
 });
+
+// Menambahkan event listener pada seluruh tombol "Baca Selengkapnya"
+document.addEventListener("DOMContentLoaded", function () {
+    let buttons = document.querySelectorAll(".btn-primary");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", function (event) {
+            event.preventDefault();
+            alert("Halaman berita sedang dalam pengembangan!");
+        });
+    });
+});
+
